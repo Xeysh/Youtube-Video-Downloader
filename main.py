@@ -1,5 +1,11 @@
-import streamlit as st
-import pytube
+import os
+try:
+    import streamlit as st
+    import pytube
+except:
+    os.system('pip install streamlit')
+    os.system('pip install pytube')
+    print("\nSuccesfully installed.")
 
 url = st.text_input("Please input your video URL to download.")
 
