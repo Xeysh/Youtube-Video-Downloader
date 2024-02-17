@@ -31,7 +31,7 @@ try:
         s.empty()
 
     else:
-        st.info("Input your URL to box.")
+        st.info("Input your video URL to box.")
 except:
     s.empty()
     st.warning("Please enter a valid URL.")
