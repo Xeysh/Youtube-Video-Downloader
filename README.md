@@ -1,5 +1,4 @@
-# Youtube-Video-Downloader
-An simple youtube video downloader.
+## Youtube-Video-Downloader ##
 
 # Usage
 
